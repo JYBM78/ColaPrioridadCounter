@@ -9,18 +9,6 @@ public class Cola {
         finalCola = null;
     }
 
-    // Método para agregar una persona al final de la cola
-   /* public void encolar(Pasajero pasajero) {
-        Nodo nuevoNodo = new Nodo(pasajero);
-        if (estáVacia()) {
-            frente = nuevoNodo;
-            finalCola = nuevoNodo;
-        } else {
-            finalCola.establecerSiguiente(nuevoNodo);
-            finalCola = nuevoNodo;
-        }
-    }*/
-
     // Método para agregar una persona a la cola según su prioridad
     public void encolar(Pasajero pasajero) {
         Nodo nuevoNodo = new Nodo(pasajero);
